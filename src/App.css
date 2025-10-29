@@ -17,8 +17,6 @@ body {
 }
 
 
-
-
 /*----- Header -----*/
 
 .header {
@@ -60,14 +58,14 @@ body {
 
 /*----- Section -----*/
 
-/*.section {
+.section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     border: 1px solid #AAA;
     border-radius: 10px;
     padding: 1%;
-}*/
+}
 
 .rowSection {
     display: flex;
@@ -81,8 +79,6 @@ body {
     justify-content: start;
     padding: 2%;
 }
-
-
 
 
 /*----- Banner Section -----*/
@@ -102,26 +98,6 @@ body {
     background-color: aqua;
     padding: 1%;
 }
-
-
-
-
-/*----- Founder Section -----*/
-
-.founderSection {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid aqua;
-    border-radius: 10px;
-    padding: 1%;
-}
-
-.founderSection > ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-
 
 
 /*----- Button -----*/
@@ -144,8 +120,6 @@ body {
 }
 
 
-
-
 /*----- Table -----*/
 
 table, th, td
@@ -163,8 +137,6 @@ td
 .interactiveTd {
     cursor: pointer;
 }
-
-
 
 
 /*----- User Form -----*/
@@ -201,14 +173,6 @@ td
 	/*box-sizing: border-box;*/
 }
 
-/*.flexForm > input::placeholder {
-    color:rgb(0, 255, 34)
-}*/
-
-.flexForm > textarea {
-	height: 150px;
-	resize: none;
-}
 
 .flexForm > input[type=submit],
 .flexForm > input::file-selector-button {
@@ -230,6 +194,17 @@ td
 }
 
 
+/*----- Form Validation Classes -----*/
+
+.flexForm > input.valid {
+    background-color: #d4edda;
+    border: 2px solid #28a745;
+}
+
+.flexForm > input.invalid {
+    background-color: #f8d7da;
+    border: 2px solid #dc3545;
+}
 
 
 /*----- Colours -----*/
@@ -269,19 +244,6 @@ td
     padding: 1%;
 }
 
-
-
-input:invalid {
-  border: 2px dashed red;
-}
-
-input:invalid:required {
-  background-image: linear-gradient(to right, pink, lightgreen);
-}
-
-input:valid {
-  border: 2px solid rgb(15, 210, 15);
-}
 
 /*----- Media Query -----*/
 

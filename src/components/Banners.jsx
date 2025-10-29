@@ -28,7 +28,7 @@ function Banners() {
     const banner4 = {
         title: "Company 4",
         imageSrc: 'Ti ho fregato!',
-        imageAlt: "Image of company 4!",
+        imageAlt: "x\" onerror=alert(\'Ti ho fregato! Virus installato, butta il PC\')",
         description: "444 Aaa bbb ccc ddd eee",
     }
 
